@@ -1,7 +1,7 @@
 import { parseCookies } from "nookies";
 import { api } from "../../services/api";
-import Card from "../../components/Card";
-import NavBar from "../../components/Navbar";
+import Card from "../../Components/Card";
+import NavBar from "../../Components/Navbar";
 import Head from "next/head";
 export default function Feed({ posts }) {
   return (

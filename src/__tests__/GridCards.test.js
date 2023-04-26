@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
-import GridCards from "../components/GridCards";
+import GridCards from "../Components/GridCards";
 
 describe("GridCards component", () => {
   test("displays two cards with correct images and text", () => {
